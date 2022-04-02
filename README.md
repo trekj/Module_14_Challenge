@@ -15,6 +15,26 @@ Adjust the input parameters to optimize the trading algorithm.
 
 Train a new machine learning model and compare its performance to that of a baseline model.
 
+# Conclusion
+
+ **BASELINE MODEL**                     
+                        
+ **Precision**              -1(0.43), 1(0.56)                     
+
+**Recall**                 -1(0.04), 1(0.96)   
+
+**Accuracy**                                0.55 
+
+**MACHINE LEARNING MODEL**
+
+ **Precision**  -1(0.44), 1(0.56)
+ 
+ **Recall**      -1(0.33), 1(0.66)
+
+**Accuracy**                                0.52
+
+Based on the results provided above, I will have to give more weight on accuracy and my overall conclusion is that the Baseline Model is slightly better than the alternative Machine Learning Model.
+
 ## Technologies
 This project is written in Python 3.8 with the following libraries:
 
