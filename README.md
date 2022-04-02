@@ -9,9 +9,9 @@ This project is written in Python 3.8 with the following libraries:
 
 ***panda*** -a Python package that provides fast, flexible, and expressive data structures designed to make working with "relational" or "labeled" data both easy and intuitive.
 
-***sklearn*** -Scikit-Learn is a free machine learning library for Python. It supports both supervised and unsupervised machine learning, providing diverse algorithms for classification, regression, clustering, and dimensionality reduction. The library is built using many libraries you may already be familiar with, such as NumPy and SciPy. It also plays well with other libraries, such as Pandas and Seaborn.
+***numpy*** -is a general-purpose array-processing package. It provides a high-performance multidimensional array object, and tools for working with these arrays. It is the fundamental package for scientific computing with Python.
 
-***tensorflow*** - is a free and open-source software library for machine learning and artificial intelligence. It can be used across a range of tasks but has a particular focus on training and inference of deep neural networks.
+***sklearn*** -Scikit-Learn is a free machine learning library for Python. It supports both supervised and unsupervised machine learning, providing diverse algorithms for classification, regression, clustering, and dimensionality reduction. The library is built using many libraries you may already be familiar with, such as NumPy and SciPy. It also plays well with other libraries, such as Pandas and Seaborn.
 
 
 ## Installation Guide
@@ -21,22 +21,18 @@ import pandas as pd
 
 from pathlib import Path
 
-import tensorflow as tf
+import matplotlib.pyplot as plt
 
-from tensorflow.keras.layers import Dense
+from sklearn import svm
 
-from tensorflow.keras.models import Sequential
+from sklearn.preprocessing import StandardScaler
 
-from sklearn.model_selection import train_test_split
+from pandas.tseries.offsets import DateOffset
 
-from sklearn.preprocessing import StandardScaler,OneHotEncoder
-
-from path import Path
-
-
+from sklearn.metrics import classification_report
 
 ***Usage***
-After cloning the repository, open the directory Starter Code and run the program by typing python venture_funding_with_deep_learning.ipynb
+After cloning the repository, open the directory Starter Code and run the program by typing python machine_learning_trading_bot.ipynb
 
 ***Contributors***
 
