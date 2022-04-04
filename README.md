@@ -33,7 +33,7 @@ Train a new machine learning model and compare its performance to that of a base
 
 **Accuracy**                                0.52
 
-Based on the results provided above, I will have to give more weight on accuracy and my overall conclusion is that the Baseline Model is slightly better than the alternative Machine Learning Model.
+Based on the results provided above, I will have to give more weight on ***accuracy*** and my overall assessment is that the Baseline Model is slightly better than the alternative Machine Learning Model.
 
 ## Technologies
 This project is written in Python 3.8 with the following libraries:
